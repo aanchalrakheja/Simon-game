@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <audio src="./sounds/red.mp3" class="red"></audio>
+    <audio src="./sounds/yellow.mp3" class="yellow"></audio>
+    <audio src="./sounds/blue.mp3" class="blue"></audio>
+    <audio src="./sounds/green.mp3" class="green"></audio>
+    <audio src="./sounds/wrong.mp3" id="wrongAudio"></audio>
+    <nav id="navbar">
+        <p>LEVEL : <span id="level">0</span></p>
+        <p>SCORE : <soan id="score">0</soan></p>
+    </nav>
+    <div id="turn">COMPUTER'S TURN</div>
+    <div id="selector"></div>
+    <button id="start">START</button>
+    <div id="game-container">
+        <div id="red" class="color"></div>
+        <div id="yellow" class="color"></div>
+        <div id="blue" class="color"></div>
+        <div id="green" class="color"></div>
+    </div>
+    <button id="restart">RESTART</button>
+    <footer id="footer">Coded by Aanchal Rakheja</footer>
+    <script src="./index.js"></script>
+</body>
+</html>
